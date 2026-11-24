@@ -1,0 +1,6 @@
+{
+  "name": "Наверх",
+  "description": "Плавающее окно и верхняя панель для возврата в начало страницы на любом сайте и в любом приложении.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Наверх</string>
+    <string name="accessibility_service_label">Наверх — быстрый возврат</string>
+    <string name="accessibility_service_description">Добавляет плавающую кнопку или верхнюю панель как на iPhone для прокрутки любого сайта или приложения в самое начало одним нажатием. Данные экрана не собираются и не передаются.</string>
+
+    <string name="tab_control">Управление</string>
+    <string name="tab_test">Тест-лента</string>
+
+    <string name="hero_title">Возврат наверх в 1 тап</string>
+    <string name="hero_subtitle">Плавающая кнопка или касание сверху экрана как на iPhone — работает в браузерах и приложениях</string>
+
+    <string name="status_active">Сервис активен</string>
+    <string name="status_paused">Окно скрыто</string>
+    <string name="status_permission_needed">Требуется разрешение</string>
+    <string name="status_desc_active">Плавающее окно отображается поверх других приложений</string>
+    <string name="status_desc_paused">Спецвозможности включены, но плавающее окно сейчас выключено</string>
+    <string name="status_desc_permission">Включите сервис «Наверх» в настройках спецвозможностей</string>
+
+    <string name="action_enable_service">Включить сервис</string>
+    <string name="action_open_settings">Настройки спецвозможностей</string>
+    <string name="overlay_toggle_label">Показывать плавающее окно</string>
+
+    <string name="disclosure_title">Зачем нужны спецвозможности</string>
+    <string name="disclosure_body">Чтобы прокручивать открытые сайты и приложения вверх при нажатии на плавающее окно, приложению «Наверх» нужен доступ к спецвозможностям (Accessibility Service) и жестам прокрутки.\n\nМы не читаем пароли, сообщения и не отправляем никакие данные с вашего устройства.</string>
+    <string name="disclosure_confirm">Перейти в настройки</string>
+    <string name="disclosure_cancel">Отмена</string>
+
+    <string name="section_overlay_mode">Формат плавающего окна</string>
+    <string name="mode_floating_title">Плавающая кнопка</string>
+    <string name="mode_floating_desc">Перетаскивается в любую точку экрана</string>
+    <string name="mode_top_bar_title">Полоса сверху (iPhone)</string>
+    <string name="mode_top_bar_desc">Тап по верхнему краю экрана</string>
+    <string name="mode_both_title">Оба варианта</string>
+    <string name="mode_both_desc">И кнопка, и полоса сверху</string>
+
+    <string name="section_appearance">Внешний вид</string>
+    <string name="label_button_size">Размер элемента</string>
+    <string name="size_compact">Малый</string>
+    <string name="size_medium">Средний</string>
+    <string name="size_large">Крупный</string>
+
+    <string name="label_opacity">Прозрачность</string>
+    <string name="label_theme_style">Стиль</string>
+    <string name="style_cobalt">Кобальт</string>
+    <string name="style_obsidian">Тёмный</string>
+    <string name="style_glass">Стекло</string>
+    <string name="style_minimal">Невидимый</string>
+
+    <string name="label_snap_edge">Прилипание к краю экрана</string>
+    <string name="desc_snap_edge">Кнопка аккуратно сдвигается к ближайшему краю после перемещения</string>
+    <string name="label_haptic">Виброотклик при нажатии</string>
+    <string name="desc_haptic">Лёгкая тактильная отдача при возврате наверх</string>
+    <string name="label_reset_position">Сбросить позицию кнопки</string>
+
+    <string name="section_scroll_behavior">Поведение прокрутки</string>
+    <string name="label_scroll_method">Способ возврата</string>
+    <string name="method_smart_title">Умный (авто)</string>
+    <string name="method_smart_desc">Сначала системная прокрутка, при необходимости быстрые свайпы</string>
+    <string name="method_gesture_title">Свайп-жесты</string>
+    <string name="method_gesture_desc">Имитация быстрых взмахов — надёжно для любых сайтов и браузеров</string>
+    <string name="method_api_title">Только системный API</string>
+    <string name="method_api_desc">Мягкий скролл без жестов для нативных списков</string>
+
+    <string name="label_scroll_speed">Глубина прокрутки</string>
+    <string name="speed_quick">Короткая</string>
+    <string name="speed_balanced">Обычная</string>
+    <string name="speed_deep">Длинные ленты</string>
+
+    <string name="hint_gestures_footer">Нажмите на плавающее окно для возврата вверх · Удерживайте кнопку, чтобы открыть настройки</string>
+    <string name="preview_title">Предпросмотр на экране</string>
+    <string name="preview_hint_top">Верхняя зона (как на iPhone)</string>
+    <string name="preview_hint_fab">Плавающая кнопка</string>
+
+    <string name="test_header_title">Проверка работы</string>
+    <string name="test_header_desc">Пролистайте список ниже, затем нажмите на плавающую кнопку или полосу сверху, чтобы мгновенно вернуться к пункту №1.</string>
+    <string name="test_open_browser">Открыть длинную страницу в браузере</string>
+    <string name="test_position_top">Вы в самом верху</string>
+    <string name="test_position_fmt">Позиция: #%1$d из %2$d</string>
+    <string name="test_scroll_down_btn">Быстро вниз (#45)</string>
+    <string name="test_item_title">Запись ленты #%1$d</string>
+    <string name="test_item_subtitle">Длинный тестовый контент для проверки плавного возврата наверх</string>
+
+    <string name="cd_scroll_top_icon">Значок возврата наверх</string>
+    <string name="cd_status_icon">Статус сервиса</string>
+    <string name="cd_mode_icon">Иконка формата окна</string>
+    <string name="cd_browser_icon">Открыть в браузере</string>
+    <string name="cd_floating_overlay">Плавающая кнопка возврата наверх</string>
+    <string name="cd_top_bar_overlay">Верхняя панель возврата наверх</string>
+</resources>
